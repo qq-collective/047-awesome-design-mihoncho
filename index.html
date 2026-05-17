@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>046 Awesome Design Mihon-cho — デザイン見本帳</title>
+<style>
+  :root {
+    --canvas: #faf9f7;
+    --surface: #ffffff;
+    --surface-2: #f4f3ef;
+    --ink: #141413;
+    --ink-2: #3d3d3a;
+    --muted: #8e8b82;
+    --border: #e6e3dc;
+    --border-soft: #ede9e2;
+    --coral: #cc785c;
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif;
+    background: var(--canvas);
+    color: var(--ink);
+    min-height: 100vh;
+  }
+
+  /* ── Layout ── */
+  .page { max-width: 1200px; margin: 0 auto; padding: 48px 24px 80px; }
+
+  /* ── Header ── */
+  .site-header { margin-bottom: 40px; }
+  .site-header-label {
+    font-size: 11px; font-weight: 500; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--muted); margin-bottom: 6px;
+  }
+  .site-header-title {
+    font-size: 32px; font-weight: 600; letter-spacing: -0.5px; line-height: 1.1;
+    color: var(--ink);
+  }
+  .site-header-subtitle {
+    font-size: 14px; color: var(--muted); margin-top: 6px; line-height: 1.6;
+  }
+
+  /* ── Controls ── */
+  .controls { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; margin-bottom: 28px; }
+  .search-wrap { position: relative; flex: 1; min-width: 180px; max-width: 280px; }
+  .search-input {
+    width: 100%; padding: 8px 12px 8px 34px; font-size: 13px;
+    border: 1px solid var(--border); border-radius: var(--radius-sm);
+    background: var(--surface); color: var(--ink); outline: none;
+  }
+  .search-input:focus { border-color: var(--coral); }
+  .search-icon {
+    position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+    width: 14px; height: 14px; color: var(--muted); pointer-events: none;
+  }
+  .count-badge {
+    font-size: 12px; color: var(--muted); white-space: nowrap;
+  }
+
+  /* ── Category filter ── */
+  .filter-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 32px; }
+  .filter-btn {
+    padding: 5px 12px; font-size: 12px; font-weight: 500; cursor: pointer;
+    border: 1px solid var(--border); border-radius: 999px;
+    background: var(--surface); color: var(--ink-2);
+    transition: all 0.12s ease;
+  }
+  .filter-btn:hover { border-color: var(--ink); }
+  .filter-btn.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+
+  /* ── Grid ── */
+  .cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 14px;
+  }
+
+  /* ── Brand card ── */
+  .brand-card {
+    border: 1px solid var(--border); border-radius: var(--radius-lg);
+    overflow: hidden; cursor: pointer; background: var(--surface);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .brand-card:hover { transform: translateY(-3px); box-shadow: 0 8px 24px rgba(0,0,0,0.08); }
+  .brand-card.selected { border-color: var(--ink); box-shadow: 0 0 0 2px var(--ink); }
+
+  .card-hero {
+    height: 110px; position: relative;
+    display: flex; flex-direction: column; justify-content: flex-end; padding: 14px;
+  }
+  .card-hero-bg {
+    position: absolute; inset: 0;
+    background: linear-gradient(135deg, var(--c1, #f0ede8), var(--c2, #e8e3dc));
+  }
+  .card-accent {
+    position: absolute; top: 12px; right: 12px;
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--ca, #ccc); z-index: 1;
+  }
+  .card-name {
+    position: relative; z-index: 1; font-size: 18px; font-weight: 600; line-height: 1.1;
+    color: var(--cn, #141413); letter-spacing: -0.2px;
+  }
+
+  .card-body { padding: 12px 14px 14px; background: var(--surface); }
+  .card-tagline { font-size: 11.5px; color: var(--muted); line-height: 1.5; margin-bottom: 10px; min-height: 32px; }
+  .color-dots { display: flex; gap: 4px; margin-bottom: 10px; }
+  .color-dot {
+    width: 16px; height: 16px; border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.08); flex-shrink: 0;
+  }
+  .card-meta { display: flex; justify-content: space-between; align-items: center; }
+  .card-category {
+    font-size: 10px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--muted); background: var(--surface-2); padding: 2px 7px; border-radius: 4px;
+  }
+  .card-keywords { font-size: 10px; color: var(--muted); }
+
+  /* ── Detail panel ── */
+  .detail-panel {
+    display: none; margin-top: 14px;
+    border: 1px solid var(--border); border-radius: var(--radius-lg);
+    background: var(--surface); overflow: hidden;
+    animation: slideIn 0.2s ease;
+  }
+  @keyframes slideIn { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+  .detail-header {
+    padding: 16px 20px; display: flex; align-items: center; justify-content: space-between;
+    border-bottom: 1px solid var(--border-soft);
+  }
+  .detail-brand-name { font-size: 18px; font-weight: 600; }
+  .detail-cat {
+    font-size: 11px; font-weight: 500; color: var(--muted); letter-spacing: 0.06em;
+    text-transform: uppercase; margin-left: 10px;
+  }
+  .official-link {
+    font-size: 12px; color: var(--coral); text-decoration: none; font-weight: 500;
+    padding: 5px 10px; border: 1px solid color-mix(in srgb, var(--coral) 30%, transparent);
+    border-radius: var(--radius-sm); transition: background 0.12s;
+    white-space: nowrap;
+  }
+  .official-link:hover { background: color-mix(in srgb, var(--coral) 8%, transparent); }
+  .detail-close {
+    font-size: 12px; color: var(--muted); cursor: pointer;
+    padding: 5px 10px; border: 1px solid var(--border); border-radius: var(--radius-sm);
+    background: none; transition: background 0.12s;
+  }
+  .detail-close:hover { background: var(--surface-2); }
+  .brand-description { font-size: 13px; line-height: 1.75; color: var(--ink-2); }
+
+  .detail-body {
+    padding: 20px; display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+  }
+  @media (max-width: 600px) { .detail-body { grid-template-columns: 1fr; } }
+
+  .detail-section {
+    padding: 14px; background: var(--surface-2);
+    border-radius: var(--radius-md); border: 1px solid var(--border-soft);
+  }
+  .detail-section.full { grid-column: 1 / -1; }
+  .section-label {
+    font-size: 10px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase;
+    color: var(--muted); margin-bottom: 8px;
+  }
+  .section-value { font-size: 13px; color: var(--ink-2); line-height: 1.6; }
+  .philosophy-text { font-style: italic; font-size: 13px; line-height: 1.7; color: var(--ink); }
+
+  .palette-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+  .palette-swatch { display: flex; align-items: center; gap: 6px; }
+  .swatch-box { width: 26px; height: 26px; border-radius: 6px; border: 1px solid rgba(0,0,0,0.08); flex-shrink: 0; }
+  .swatch-hex { font-size: 11px; font-family: ui-monospace, monospace; color: var(--muted); }
+
+  .keyword-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .keyword-chip {
+    font-size: 11px; padding: 3px 9px; border-radius: 999px;
+    background: var(--border-soft); color: var(--ink-2);
+  }
+
+  /* ── About badge ── */
+  .card-about {
+    font-size: 10px; font-weight: 500; color: var(--muted);
+    margin-top: -4px; margin-bottom: 8px; letter-spacing: 0.02em;
+  }
+
+  /* ── Mini UI Preview (sample準拠) ── */
+  .mini-preview {
+    border-radius: 8px; overflow: hidden;
+    border: 1px solid #ddd; background: #fff;
+    user-select: none; font-family: sans-serif;
+  }
+  .browser-bar {
+    background: #e8e8e8; padding: 6px 10px;
+    display: flex; align-items: center; gap: 5px;
+    font-size: 11px; color: #888;
+  }
+  .browser-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .mini-nav {
+    padding: 8px 14px; display: flex; align-items: center; gap: 14px;
+    font-size: 11px; font-weight: 600;
+  }
+  .mini-hero { padding: 16px 14px; }
+  .mini-hero-title { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+  .mini-hero-sub { font-size: 10px; margin-bottom: 10px; opacity: 0.7; }
+  .mini-btn {
+    display: inline-block; padding: 5px 12px; border-radius: 6px;
+    font-size: 11px; font-weight: 600; cursor: default; border: none;
+  }
+  .mini-cards {
+    display: grid; grid-template-columns: 1fr 1fr;
+    gap: 8px; padding: 0 14px 14px;
+  }
+  .mini-card { padding: 10px; border-radius: 6px; font-size: 10px; }
+  .mini-card-title { font-weight: 600; margin-bottom: 3px; font-size: 11px; }
+
+  /* ── Empty state ── */
+  .empty-state { text-align: center; padding: 60px 24px; color: var(--muted); grid-column: 1/-1; }
+  .empty-state-icon { font-size: 32px; margin-bottom: 12px; }
+  .empty-state-text { font-size: 14px; }
+
+  /* ── Responsive ── */
+  @media (max-width: 480px) {
+    .site-header-title { font-size: 24px; }
+    .cards-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="site-header">
+    <div class="site-header-label">046 Awesome Design Mihon-cho</div>
+    <h1 class="site-header-title">デザイン見本帳</h1>
+    <p class="site-header-subtitle">世界 71 ブランドが語る「言葉にならない思想」</p>
+  </header>
+
+  <div class="controls">
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="6.5" cy="6.5" r="4.5"/><path d="M11 11l3 3"/>
+      </svg>
+      <input class="search-input" id="searchInput" type="text" placeholder="ブランドを検索…" oninput="applyFilters()">
+    </div>
+    <span class="count-badge" id="countBadge"></span>
+  </div>
+
+  <div class="filter-row" id="filterRow"></div>
+
+  <div class="cards-grid" id="cardsGrid"></div>
+  <div class="detail-panel" id="detailPanel"></div>
+
+</div>
+
+<script>
+let allBrands = [];
+let activeCategory = 'all';
+let searchQuery = '';
+let openId = null;
+
+// ── Luminance helper ──────────────────────────────
+function luma(hex) {
+  const r = parseInt(hex.slice(1,3),16)/255;
+  const g = parseInt(hex.slice(3,5),16)/255;
+  const b = parseInt(hex.slice(5,7),16)/255;
+  return 0.2126*r + 0.7152*g + 0.0722*b;
+}
+
+function textColor(bg) {
+  return luma(bg) > 0.45 ? '#141413' : '#ffffff';
+}
+
+function mix(c1, c2, t = 0.3) {
+  const r1=parseInt(c1.slice(1,3),16), g1=parseInt(c1.slice(3,5),16), b1=parseInt(c1.slice(5,7),16);
+  const r2=parseInt(c2.slice(1,3),16), g2=parseInt(c2.slice(3,5),16), b2=parseInt(c2.slice(5,7),16);
+  const r=Math.round(r1*(1-t)+r2*t);
+  const g=Math.round(g1*(1-t)+g2*t);
+  const b=Math.round(b1*(1-t)+b2*t);
+  return '#'+[r,g,b].map(v=>v.toString(16).padStart(2,'0')).join('');
+}
+
+// ── Card render ───────────────────────────────────
+function cardHTML(b) {
+  const c1 = b.colors[0] || '#f0ede8';
+  const c2 = b.colors[1] || '#e8e3dc';
+  const ca = b.colors[1] || '#ccc';
+  const cn = textColor(c1);
+  const dots = b.colors.map(c =>
+    `<div class="color-dot" style="background:${c}" title="${c}"></div>`
+  ).join('');
+  const shortPhil = b.philosophy.length > 60 ? b.philosophy.slice(0,58) + '…' : b.philosophy;
+
+  return `<div class="brand-card" id="card-${b.id}" onclick="toggleDetail('${b.id}')">
+    <div class="card-hero" style="--c1:${c1};--c2:${c2};--ca:${ca};--cn:${cn};">
+      <div class="card-hero-bg"></div>
+      <div class="card-accent"></div>
+      <div class="card-name">${b.name}</div>
+    </div>
+    <div class="card-body">
+      <div class="card-tagline">${shortPhil}</div>
+      ${b.about ? `<div class="card-about">${b.about}</div>` : ''}
+      <div class="color-dots">${dots}</div>
+      <div class="card-meta">
+        <span class="card-category">${b.category}</span>
+        <span class="card-keywords">${b.keywords.slice(0,2).join(' · ')}</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+// ── Mini UI preview (sample準拠) ─────────────────
+function miniUIHTML(b) {
+  const base   = b.colors[0] || '#f0ede8';
+  const accent = b.colors[1] || '#333333';
+  const baseTxt = textColor(base);
+  const btnTxt  = textColor(accent);
+  // カード背景: 明るいベースは少し暗く、暗いベースは少し明るく
+  const cardBg  = luma(base) > 0.4
+    ? mix(base, '#000000', 0.1)
+    : mix(base, '#ffffff', 0.18);
+  const cardTxt = textColor(cardBg);
+  const domain  = b.url
+    ? b.url.replace(/^https?:\/\/(www\.)?/, '')
+    : b.id.replace(/\./g, '-') + '.com';
+
+  return `<div class="mini-preview">
+    <div class="browser-bar">
+      <div class="browser-dot" style="background:#ff5f57;"></div>
+      <div class="browser-dot" style="background:#febc2e;"></div>
+      <div class="browser-dot" style="background:#28c840;"></div>
+      <span style="margin-left:6px;">${domain}</span>
+    </div>
+    <div class="mini-nav" style="background:${base};color:${baseTxt};">
+      <span style="font-weight:700;">${b.name}</span>
+      <span style="opacity:0.6;">Products</span>
+      <span style="opacity:0.6;">Pricing</span>
+    </div>
+    <div class="mini-hero" style="background:${base};color:${baseTxt};">
+      <div class="mini-hero-title">見出しテキスト</div>
+      <div class="mini-hero-sub">${b.about || 'サービスの説明'}</div>
+      <div class="mini-btn" style="background:${accent};color:${btnTxt};">アクション →</div>
+    </div>
+    <div class="mini-cards" style="background:${base};">
+      <div class="mini-card" style="background:${cardBg};color:${cardTxt};">
+        <div class="mini-card-title">カードタイトル</div>
+        <div style="opacity:0.6;">サンプルの説明テキスト</div>
+      </div>
+      <div class="mini-card" style="background:${cardBg};color:${cardTxt};">
+        <div class="mini-card-title">カードタイトル</div>
+        <div style="opacity:0.6;">サンプルの説明テキスト</div>
+      </div>
+    </div>
+  </div>`;
+}
+
+// ── Detail panel ──────────────────────────────────
+function detailHTML(b) {
+  const swatches = b.colors.map(c =>
+    `<div class="palette-swatch">
+      <div class="swatch-box" style="background:${c}"></div>
+      <span class="swatch-hex">${c}</span>
+    </div>`
+  ).join('');
+  const chips = b.keywords.map(k => `<span class="keyword-chip">${k}</span>`).join('');
+  return `
+    <div class="detail-header">
+      <div style="display:flex;align-items:baseline;gap:8px;">
+        <span class="detail-brand-name">${b.name}</span>
+        <span class="detail-cat">${b.category}</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:8px;">
+        ${b.url ? `<a class="official-link" href="${b.url}" target="_blank" rel="noopener">公式サイトへ →</a>` : ''}
+        <button class="detail-close" onclick="closeDetail()">閉じる</button>
+      </div>
+    </div>
+    <div class="detail-body">
+      ${b.description ? `<div class="detail-section full">
+        <div class="section-label">企業概要</div>
+        <div class="section-value brand-description">${b.description}</div>
+      </div>` : ''}
+      <div class="detail-section full">
+        <div class="section-label">デザイン哲学</div>
+        <div class="philosophy-text">${b.philosophy}</div>
+      </div>
+      <div class="detail-section">
+        <div class="section-label">カラーパレット</div>
+        <div class="palette-row">${swatches}</div>
+      </div>
+      <div class="detail-section">
+        <div class="section-label">タイポグラフィ</div>
+        <div class="section-value">${b.typography}</div>
+      </div>
+      <div class="detail-section full">
+        <div class="section-label">キーワード</div>
+        <div class="keyword-chips">${chips}</div>
+      </div>
+      <div class="detail-section full">
+        <div class="section-label">ミニ UI プレビュー</div>
+        ${miniUIHTML(b)}
+      </div>
+    </div>`;
+}
+
+// ── Toggle detail ─────────────────────────────────
+function toggleDetail(id) {
+  if (openId === id) { closeDetail(); return; }
+  openId = id;
+
+  document.querySelectorAll('.brand-card').forEach(c => c.classList.remove('selected'));
+  const card = document.getElementById('card-' + id);
+  if (card) card.classList.add('selected');
+
+  const b = allBrands.find(b => b.id === id);
+  const panel = document.getElementById('detailPanel');
+  panel.innerHTML = detailHTML(b);
+  panel.style.display = 'block';
+
+  // Insert panel after the card's row
+  const grid = document.getElementById('cardsGrid');
+  const cards = [...grid.children];
+  const idx = cards.indexOf(card);
+  const cols = Math.round(grid.offsetWidth / (card.offsetWidth + 14)) || 4;
+  const rowEnd = Math.min(Math.ceil((idx + 1) / cols) * cols - 1, cards.length - 1);
+  const anchor = cards[rowEnd];
+  grid.parentElement.insertBefore(panel, anchor.nextSibling);
+
+  panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+}
+
+function closeDetail() {
+  openId = null;
+  document.querySelectorAll('.brand-card').forEach(c => c.classList.remove('selected'));
+  const panel = document.getElementById('detailPanel');
+  panel.style.display = 'none';
+  document.getElementById('cardsGrid').parentElement.appendChild(panel);
+}
+
+// ── Filters ───────────────────────────────────────
+function applyFilters() {
+  searchQuery = document.getElementById('searchInput').value.toLowerCase();
+  const grid = document.getElementById('cardsGrid');
+  closeDetail();
+
+  const filtered = allBrands.filter(b => {
+    const matchCat = activeCategory === 'all' || b.category === activeCategory;
+    const q = searchQuery;
+    const matchSearch = !q || b.name.toLowerCase().includes(q) || b.category.toLowerCase().includes(q)
+      || b.keywords.some(k => k.toLowerCase().includes(q))
+      || b.philosophy.toLowerCase().includes(q);
+    return matchCat && matchSearch;
+  });
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div class="empty-state"><div class="empty-state-icon">🔍</div><div class="empty-state-text">ブランドが見つかりません</div></div>`;
+  } else {
+    grid.innerHTML = filtered.map(cardHTML).join('');
+  }
+  document.getElementById('countBadge').textContent = filtered.length + ' ブランド';
+}
+
+function setCategory(cat) {
+  activeCategory = cat;
+  document.querySelectorAll('.filter-btn').forEach(b => {
+    b.classList.toggle('active', b.dataset.cat === cat);
+  });
+  applyFilters();
+}
+
+// ── Boot ──────────────────────────────────────────
+async function init() {
+  const resp = await fetch('./brands.json');
+  allBrands = await resp.json();
+
+  // Build category buttons
+  const cats = ['all', ...new Set(allBrands.map(b => b.category))].sort((a,b) => {
+    if (a === 'all') return -1; if (b === 'all') return 1;
+    return a.localeCompare(b);
+  });
+  const LABELS = { all:'全て', AI:'AI', 'Dev Tools':'Dev Tools', 'フィンテック':'フィンテック', '自動車':'自動車', 'Big Tech':'Big Tech', 'ライフスタイル':'ライフスタイル', 'メディア':'メディア', 'ゲーム':'ゲーム', 'EC':'EC', '音楽':'音楽', 'スペース':'スペース', 'テレコム':'テレコム', 'ファッション':'ファッション' };
+
+  document.getElementById('filterRow').innerHTML = cats.map(c =>
+    `<button class="filter-btn${c === 'all' ? ' active' : ''}" data-cat="${c}" onclick="setCategory('${c}')">${LABELS[c] || c}</button>`
+  ).join('');
+
+  applyFilters();
+}
+
+init().catch(err => {
+  document.getElementById('cardsGrid').innerHTML = `<div class="empty-state"><div class="empty-state-icon">⚠️</div><div class="empty-state-text">brands.json の読み込みに失敗しました。<br>ローカルサーバーで開いてください（例: npx serve .）</div></div>`;
+  console.error(err);
+});
+</script>
+</body>
+</html>

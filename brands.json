@@ -1,0 +1,1493 @@
+[
+  {
+    "id": "claude",
+    "name": "Claude",
+    "category": "AI",
+    "philosophy": "A warm-canvas editorial interface for Anthropic's Claude product.",
+    "colors": [
+      "#cc785c",
+      "#a9583e",
+      "#e6dfd8",
+      "#141413"
+    ],
+    "typography": "Copernicus, StyreneB / w400/500",
+    "keywords": [
+      "温かみ",
+      "書斎",
+      "知性"
+    ],
+    "about": "AIアシスタント",
+    "url": "https://claude.ai",
+    "description": "Anthropicが開発した対話型AIアシスタント。安全性を重視したAI研究を基盤とし、文章作成・分析・プログラミング支援などに優れる。温かみのある「クリームキャンバス」のブランドデザインが特徴的。"
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "category": "AI",
+    "philosophy": "Cohere's 2026 web system is a controlled enterprise AI interface built from stark white editorial space, deep green-black product bands, soft mineral surfaces, rounded media cards, and a distinctive t",
+    "colors": [
+      "#17171c",
+      "#000000",
+      "#212121",
+      "#003c33"
+    ],
+    "typography": "CohereText, Unica77 Cohere Web / w400/500",
+    "keywords": [
+      "エンタープライズ",
+      "NLP",
+      "信頼性"
+    ],
+    "about": "エンタープライズAI",
+    "url": "https://cohere.com",
+    "description": "企業向けに特化した大規模言語モデルとNLPツールを提供するカナダ発AIスタートアップ。RAGやエンタープライズ検索への対応に強みを持つ。GoogleなどからはAI分野の有力スタートアップとして大型出資を受けている。"
+  },
+  {
+    "id": "composio",
+    "name": "Composio",
+    "category": "AI",
+    "philosophy": "A developer-tools brand for AI-agent tool integration whose marketing surfaces lean into a dark, technical aesthetic with a single deep-electric-blue voltage (`#0007cd`).",
+    "colors": [
+      "#0007cd",
+      "#0005a3",
+      "#1a26ff",
+      "#ffffff"
+    ],
+    "typography": "'abcDiatype', 'JetBrains Mono' / w500/600/400",
+    "keywords": [
+      "統合",
+      "自動化",
+      "エージェント"
+    ],
+    "about": "AIツール統合基盤",
+    "url": "https://composio.dev",
+    "description": "AIエージェントが外部ツールやAPIと連携するための統合基盤を提供するスタートアップ。GitHub・Slackなど250以上のツールへの接続をサポートする。LangChain・AutoGenとの互換性でAI開発者に広く普及している。"
+  },
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "category": "AI",
+    "philosophy": "An AI-first code editor whose marketing site reads like a quietly-confident developer-tools brand with a warm-cream editorial canvas (`#f7f7f4`) instead of the typical dark IDE atmosphere.",
+    "colors": [
+      "#f54e00",
+      "#d04200",
+      "#26251e",
+      "#5a5852"
+    ],
+    "typography": "'CursorGothic', 'JetBrains Mono' / w400/600/500",
+    "keywords": [
+      "コード",
+      "AIアシスト",
+      "開発者"
+    ],
+    "about": "AIコードエディタ",
+    "url": "https://www.cursor.com",
+    "description": "VS Codeをベースに構築したAI搭載コードエディタ。コードの補完・生成・説明を自然言語で行えることで爆発的に普及した。2024年には年間収益が1億ドルを超えたとされる急成長プロダクト。"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "category": "AI",
+    "philosophy": "A voice-AI brand whose marketing surfaces read like a quietly editorial print magazine.",
+    "colors": [
+      "#292524",
+      "#0c0a09",
+      "#4e4e4e",
+      "#777169"
+    ],
+    "typography": "'Waldenburg', 'Inter' / w300/500/400",
+    "keywords": [
+      "音声",
+      "AI",
+      "リアリズム"
+    ],
+    "about": "AI音声生成",
+    "url": "https://elevenlabs.io",
+    "description": "リアルな音声合成AIを提供するスタートアップ。テキストから人間の声に近い高品質な音声を生成し、多言語・感情表現にも対応する。ポッドキャスト・ゲーム・映画の吹き替えなど幅広い分野で活用されている。"
+  },
+  {
+    "id": "lovable",
+    "name": "Lovable",
+    "category": "AI",
+    "philosophy": "Lovable's website radiates warmth through restraint.",
+    "colors": [
+      "#f7f4ed",
+      "#1c1c1c",
+      "#eceae4",
+      "#fcfbf8"
+    ],
+    "typography": "System default",
+    "keywords": [
+      "AIビルダー",
+      "急速開発",
+      "モダン"
+    ],
+    "about": "AIアプリビルダー",
+    "url": "https://lovable.dev",
+    "description": "自然言語でフルスタックのWebアプリを生成できるAIアプリビルダー。プログラミング知識がなくても本格的なアプリを短時間で作成できる。急速に成長するノーコードAI市場をリードするプロダクト。"
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "category": "AI",
+    "philosophy": "MiniMax presents itself as a premium AI infrastructure brand through a striking duality — bold black-pill CTAs and stark white canvas for marketing, paired with vibrant gradient product cards (orange-",
+    "colors": [
+      "#0a0a0a",
+      "#ffffff",
+      "#181e25",
+      "#ff5530"
+    ],
+    "typography": "DM Sans / w600/500/400",
+    "keywords": [
+      "マルチモーダル",
+      "AI",
+      "中国発"
+    ],
+    "about": "マルチモーダルAI",
+    "url": "https://www.minimaxi.com",
+    "description": "中国発のマルチモーダルAI企業。テキスト・音声・動画生成を統合したAPIを提供し、国際市場にも積極進出している。Hailuo AIの動画生成サービスでクリエイター向け市場でも注目を集める。"
+  },
+  {
+    "id": "mistral.ai",
+    "name": "Mistral AI",
+    "category": "AI",
+    "philosophy": "Mistral AI brands itself with a singular signature — atmospheric sunset gradients (mustard, orange, deep red) layered over photography of mountains, plus a horizontal \"sunset stripe\" bar that closes e",
+    "colors": [
+      "#fa520f",
+      "#cc3a05",
+      "#ffffff",
+      "#ffd06a"
+    ],
+    "typography": "PP Editorial Old, Inter / w400/500/600",
+    "keywords": [
+      "オープン",
+      "効率",
+      "欧州発AI"
+    ],
+    "about": "欧州発AIモデル",
+    "url": "https://mistral.ai",
+    "description": "フランス発のオープンソース志向AIスタートアップ。GPTに匹敵する性能を効率的に開発し、欧州のAI産業をリードする。Mistral 7BやMixtralなどのモデルを無償公開し開発者コミュニティで高い評価を得ている。"
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA",
+    "category": "AI",
+    "philosophy": "An engineering-grade marketing system organized around two surface modes — a deep black canvas for hero and footer chapters and a flat paper-white canvas for body content — connected by a single, almo",
+    "colors": [
+      "#76b900",
+      "#000000",
+      "#5a8d00",
+      "#ffffff"
+    ],
+    "typography": "NVIDIA-EMEA / w700/400",
+    "keywords": [
+      "GPU",
+      "AIハード",
+      "加速"
+    ],
+    "about": "GPU半導体企業",
+    "url": "https://www.nvidia.com",
+    "description": "GPU（グラフィック処理ユニット）の世界的リーダーで、AIブームの最大の恩恵を受けた企業。CUDAプラットフォームでAI研究の標準的な計算基盤を提供している。時価総額は世界有数の規模に成長した半導体巨人。"
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "category": "AI",
+    "philosophy": "An almost defiantly minimal documentation-first system that treats the home page like a Markdown README — paper-white canvas, 36px center-aligned heading, a single black pill CTA, an inline terminal i",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#090909",
+      "#525252"
+    ],
+    "typography": "SF Pro Rounded, ui-sans-serif / w500/600/400",
+    "keywords": [
+      "ローカルAI",
+      "プライバシー",
+      "オープン"
+    ],
+    "about": "ローカルAI実行",
+    "url": "https://ollama.com",
+    "description": "LlamaやMistralなどのオープンソースAIモデルをローカル環境で簡単に実行できるツール。インターネット接続不要でプライバシーを確保しながらAIを利用できる点が強み。開発者コミュニティで急速に普及している。"
+  },
+  {
+    "id": "opencode.ai",
+    "name": "OpenCode",
+    "category": "AI",
+    "philosophy": "A terminal-native marketing system rendered entirely in Berkeley Mono — every word on the page, from the hero headline down to the footer fine print, is monospaced.",
+    "colors": [
+      "#201d1d",
+      "#fdfcfc",
+      "#0f0000",
+      "#302c2c"
+    ],
+    "typography": "Berkeley Mono / w700/400/500",
+    "keywords": [
+      "AIコード",
+      "オープン",
+      "開発者"
+    ],
+    "about": "AIコーディング",
+    "url": "https://opencode.ai",
+    "description": "ターミナル上で動作するオープンソースのAIコーディングアシスタント。Claude・GPTなど複数のAIモデルに対応し、コードベース全体を理解してコーディング支援を行う。開発者向けのオープンソースツールとして注目されている。"
+  },
+  {
+    "id": "replicate",
+    "name": "Replicate",
+    "category": "AI",
+    "philosophy": "Replicate's marketing surfaces pair the warm-cream developer-tools aesthetic of an indie ML playground with a confident hot-orange brand accent and a signature display typeface (rb-freigeist-neue) siz",
+    "colors": [
+      "#ea2804",
+      "#c01f00",
+      "#ffffff",
+      "#202020"
+    ],
+    "typography": "rb-freigeist-neue, basier-square / w700/600/400",
+    "keywords": [
+      "AIモデル",
+      "クラウド",
+      "開発者"
+    ],
+    "about": "AIモデル実行基盤",
+    "url": "https://replicate.com",
+    "description": "クラウド上でオープンソースのAIモデルを実行・ホスティングできるプラットフォーム。Stable DiffusionなどのAI画像生成モデルをAPIで簡単に呼び出せることで人気を博す。開発者向けに設計されたAIモデル実行基盤。"
+  },
+  {
+    "id": "runwayml",
+    "name": "RunwayML",
+    "category": "AI",
+    "philosophy": "Runway's interface is a cinematic reel brought to life as a website — a dark, editorial, film-production-grade design where full-bleed photography and video ARE the primary UI elements.",
+    "colors": [
+      "#767d88",
+      "#7d848e",
+      "#000000",
+      "#030303"
+    ],
+    "typography": "System default",
+    "keywords": [
+      "AI動画",
+      "クリエイティブ",
+      "ジェネレーティブ"
+    ],
+    "about": "AI動画生成",
+    "url": "https://runwayml.com",
+    "description": "AIを活用した動画編集・生成ツールを提供するスタートアップ。Gen-2・Gen-3などの動画生成AIで映像クリエイターに広く使われる。ハリウッドのプロ制作現場でも導入が進むAI映像の最前線企業。"
+  },
+  {
+    "id": "together.ai",
+    "name": "Together AI",
+    "category": "AI",
+    "philosophy": "An inspired interpretation of Together AI's design language — an AI infrastructure platform whose surface alternates between near-black hero bands (with a three-color orange-magenta-periwinkle gradien",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#959494",
+      "#010120"
+    ],
+    "typography": "The Future, PP Neue Montreal Mono / w500/400",
+    "keywords": [
+      "オープンAI",
+      "推論",
+      "クラウド"
+    ],
+    "about": "オープンAI基盤",
+    "url": "https://www.together.ai",
+    "description": "オープンソースのAIモデルをクラウドで高速に推論できるプラットフォーム。LlamaやMistralなど主要なオープンモデルをAPI経由で提供する。エンタープライズ向けに高い性能とコスト効率を実現している。"
+  },
+  {
+    "id": "voltagent",
+    "name": "VoltAgent",
+    "category": "AI",
+    "philosophy": "An inspired interpretation of Voltagent's design language — a developer-focused AI agent engineering platform whose surface is an unrelenting near-black canvas broken only by a single electric-green b",
+    "colors": [
+      "#00d992",
+      "#2fd6a1",
+      "#10b981",
+      "#101010"
+    ],
+    "typography": "Inter, SFMono-Regular / w400/700/600",
+    "keywords": [
+      "AIエージェント",
+      "オープン",
+      "構築"
+    ],
+    "about": "AIエージェント",
+    "url": "https://voltagent.dev",
+    "description": "TypeScriptでAIエージェントを構築するためのオープンソースフレームワーク。複数エージェントの協調・メモリ管理・ツール統合を容易に実現できる。VoltAgent社が開発・メンテナンスし開発者コミュニティに公開している。"
+  },
+  {
+    "id": "x.ai",
+    "name": "xAI",
+    "category": "AI",
+    "philosophy": "An inspired interpretation of xAI's design language — Elon Musk's frontier-AI company whose web surface is a strict near-black canvas broken only by white pill outlines, occasional warm sunset / dusk ",
+    "colors": [
+      "#ffffff",
+      "#0a0a0a",
+      "#fafaf7",
+      "#dadbdf"
+    ],
+    "typography": "universalSans, GeistMono / w400",
+    "keywords": [
+      "Grok",
+      "AI",
+      "オープン"
+    ],
+    "about": "グロックAI開発",
+    "url": "https://x.ai",
+    "description": "イーロン・マスクが設立したAI企業。大規模言語モデル「Grok」を開発しX（旧Twitter）に統合している。リアルタイム情報へのアクセスとユーモアのある回答スタイルが特徴。"
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "category": "Big Tech",
+    "philosophy": "A photography-first interface that turns marketing into a museum gallery.",
+    "colors": [
+      "#0066cc",
+      "#0071e3",
+      "#2997ff",
+      "#1d1d1f"
+    ],
+    "typography": "SF Pro Display, SF Pro Text / w600/400/300",
+    "keywords": [
+      "ミニマル",
+      "精密",
+      "プレミアム"
+    ],
+    "about": "IT機器メーカー",
+    "url": "https://www.apple.com",
+    "description": "1976年にスティーブ・ジョブズらが創業したIT企業。iPhone・Mac・iPadなど革新的なハードウェアとソフトウェアを展開している。洗練されたデザインと直感的な使いやすさで、世界最大級の時価総額を誇る。"
+  },
+  {
+    "id": "ibm",
+    "name": "IBM",
+    "category": "Big Tech",
+    "philosophy": "An enterprise-marketing canvas faithful to Carbon Design System: white surfaces, charcoal type, IBM Blue (#0f62fe) as the single confident accent, and a deliberately flat-square aesthetic where corner",
+    "colors": [
+      "#0f62fe",
+      "#ffffff",
+      "#161616",
+      "#525252"
+    ],
+    "typography": "IBM Plex Sans / w300/400/600",
+    "keywords": [
+      "企業",
+      "信頼",
+      "革新"
+    ],
+    "about": "IT総合企業",
+    "url": "https://www.ibm.com",
+    "description": "1911年創業の米国IT大手。メインフレームからクラウド・AIまで幅広い企業向けITソリューションを提供する。Watson AIや量子コンピュータ研究で最先端技術をリードし続けている。"
+  },
+  {
+    "id": "meta",
+    "name": "Meta",
+    "category": "Big Tech",
+    "philosophy": "Meta's design system spans hardware commerce (Quest VR, Ray-Ban Meta AI glasses) and brand surfaces with a confident product-merchandising voice.",
+    "colors": [
+      "#0064e0",
+      "#0457cb",
+      "#0091ff",
+      "#ffffff"
+    ],
+    "typography": "Optimistic VF / w500/300/700",
+    "keywords": [
+      "接続",
+      "スケール",
+      "ソーシャル"
+    ],
+    "about": "SNS・VR企業",
+    "url": "https://www.meta.com",
+    "description": "Facebook・Instagram・WhatsAppを運営する世界最大級のSNS企業。メタバースとVR/AR技術への積極投資でOculus（Meta Quest）を展開している。Llama AIモデルをオープンソースで公開しAI分野でも存在感を示す。"
+  },
+  {
+    "id": "airtable",
+    "name": "Airtable",
+    "category": "Dev Tools",
+    "philosophy": "A sober, editorial workflow-software interface anchored on white canvas and dark-ink type, where brand voltage comes from full-bleed signature cards in coral, dark green, peach, and dark navy that pun",
+    "colors": [
+      "#181d26",
+      "#0d1218",
+      "#333840",
+      "#41454d"
+    ],
+    "typography": "Haas Groot Disp, Haas / w500/400/600",
+    "keywords": [
+      "柔軟性",
+      "データベース",
+      "プロダクティビティ"
+    ],
+    "about": "スプレッドシートDB",
+    "url": "https://www.airtable.com",
+    "description": "スプレッドシートとデータベースを融合させたノーコード業務ツール。プロジェクト管理・コンテンツカレンダー・CRMなど多様な用途に柔軟に対応する。エンタープライズから個人まで幅広く利用されている。"
+  },
+  {
+    "id": "cal",
+    "name": "Cal.com",
+    "category": "Dev Tools",
+    "philosophy": "A clean, calendar-software-first interface anchored on white canvas with black primary CTAs and custom Cal Sans display typography.",
+    "colors": [
+      "#111111",
+      "#242424",
+      "#e5e7eb",
+      "#374151"
+    ],
+    "typography": "Cal Sans, Inter / w600/400/500",
+    "keywords": [
+      "オープンソース",
+      "生産性",
+      "シンプル"
+    ],
+    "about": "予約管理ツール",
+    "url": "https://cal.com",
+    "description": "オープンソースのスケジュール管理・予約ツール。Calendlyの代替として注目され、自己ホストも可能な設計が特徴。Cal.comとして提供され、API連携や多様なカスタマイズに対応している。"
+  },
+  {
+    "id": "clay",
+    "name": "Clay",
+    "category": "Dev Tools",
+    "philosophy": "A vibrant claymation-meets-data interface for Clay.",
+    "colors": [
+      "#0a0a0a",
+      "#1f1f1f",
+      "#e5e5e5",
+      "#3a3a3a"
+    ],
+    "typography": "Plain Black, Inter / w500/600/400",
+    "keywords": [
+      "人脈",
+      "ミニマル",
+      "パーソナル"
+    ],
+    "about": "人脈管理ツール",
+    "url": "https://clay.com",
+    "description": "連絡先データをAIで自動充実させる人脈管理・営業支援ツール。LinkedInやWebからデータを自動収集し、営業アウトリーチを効率化する。スタートアップやセールスチームに特に人気が高い。"
+  },
+  {
+    "id": "clickhouse",
+    "name": "ClickHouse",
+    "category": "Dev Tools",
+    "philosophy": "A high-performance database interface anchored on near-pure black canvas with electric yellow as the brand voltage.",
+    "colors": [
+      "#faff69",
+      "#e6eb52",
+      "#3a3a1f",
+      "#ffffff"
+    ],
+    "typography": "Inter, JetBrains Mono / w700/600/400",
+    "keywords": [
+      "高速",
+      "データ",
+      "スケール"
+    ],
+    "about": "高速データベース",
+    "url": "https://clickhouse.com",
+    "description": "大量のデータを超高速で分析できるオープンソースの列指向データベース。クリックストリームや時系列データの処理に特に優れる。Yandex発でClickHouse社が商用クラウド版を提供している。"
+  },
+  {
+    "id": "expo",
+    "name": "Expo",
+    "category": "Dev Tools",
+    "philosophy": "A React Native developer-platform whose marketing site reads like a quietly-confident infrastructure brand.",
+    "colors": [
+      "#000000",
+      "#1a1a1a",
+      "#0d74ce",
+      "#476cff"
+    ],
+    "typography": "'Inter', 'JetBrains Mono' / w600/400/500",
+    "keywords": [
+      "クロスプラットフォーム",
+      "React Native",
+      "開発者"
+    ],
+    "about": "モバイル開発基盤",
+    "url": "https://expo.dev",
+    "description": "React Nativeを使ったiOS・Android・Web対応のクロスプラットフォームアプリ開発基盤。Expo GoアプリでQRコード一つで即時プレビューが可能。モバイル開発の敷居を大幅に下げた人気フレームワーク。"
+  },
+  {
+    "id": "figma",
+    "name": "Figma",
+    "category": "Dev Tools",
+    "philosophy": "A confident black-and-white editorial frame interrupted by oversized, hand-cut pastel color blocks.",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#e6e6e6",
+      "#f1f1f1"
+    ],
+    "typography": "figmaSans, figmaMono / w340/540/700",
+    "keywords": [
+      "コラボレーション",
+      "デザイン",
+      "クリエイティブ"
+    ],
+    "about": "UIデザインツール",
+    "url": "https://www.figma.com",
+    "description": "クラウドベースのUIデザインツールで、リアルタイムでの共同編集が可能。Webブラウザだけでデザインからプロトタイプまで完結できる。2022年にAdobeが約2.5兆円での買収を試みたが、独禁法審査で断念した。"
+  },
+  {
+    "id": "framer",
+    "name": "Framer",
+    "category": "Dev Tools",
+    "philosophy": "A confident dark-canvas builder marketing site that treats the page like a working artboard — pure black surfaces, white display type set in GT Walsheim Medium with aggressive negative tracking, and a",
+    "colors": [
+      "#ffffff",
+      "#000000",
+      "#0099ff",
+      "#999999"
+    ],
+    "typography": "GT Walsheim Framer Medium, GT Walsheim Medium / w500/700/400",
+    "keywords": [
+      "アニメーション",
+      "ウェブ",
+      "ノーコード"
+    ],
+    "about": "Webデザインツール",
+    "url": "https://www.framer.com",
+    "description": "デザイナー向けのビジュアルWebサイト構築ツール。高度なアニメーションやインタラクションを視覚的に作成し、そのままWebに公開できる。デザイン制作会社やフリーランサーに特に人気が高い。"
+  },
+  {
+    "id": "hashicorp",
+    "name": "HashiCorp",
+    "category": "Dev Tools",
+    "philosophy": "An enterprise-infrastructure marketing canvas built around a near-black ground (#000000) and a system of per-product accent colors — Terraform purple, Vault yellow, Consul pink, Waypoint cyan, Vagrant",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#2b89ff",
+      "#b2b6bd"
+    ],
+    "typography": "hashicorpSans / w700/600/500",
+    "keywords": [
+      "インフラ",
+      "自動化",
+      "オープンソース"
+    ],
+    "about": "インフラ自動化",
+    "url": "https://www.hashicorp.com",
+    "description": "Terraform・Vault・Consulなどインフラ自動化ツール群を開発する企業。マルチクラウド環境のIaC（Infrastructure as Code）のデファクトスタンダードを築いた。2024年にIBMが64億ドルで買収を完了している。"
+  },
+  {
+    "id": "intercom",
+    "name": "Intercom",
+    "category": "Dev Tools",
+    "philosophy": "An editorial customer-service marketing canvas built around a soft cream-white ground, charcoal type set in Saans (Intercom's proprietary geometric sans), and a single confident Fin Orange (#ff5600) r",
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#626260",
+      "#7b7b78"
+    ],
+    "typography": "Saans, SaansMono / w500/400",
+    "keywords": [
+      "サポート",
+      "対話",
+      "CX"
+    ],
+    "about": "顧客対話ツール",
+    "url": "https://www.intercom.com",
+    "description": "顧客対話・カスタマーサポートのためのプラットフォーム。チャットボット・メール・インアプリメッセージを統合し、顧客との関係構築を支援する。AI機能の強化で自動化サポートを積極的に推進している。"
+  },
+  {
+    "id": "linear.app",
+    "name": "Linear",
+    "category": "Dev Tools",
+    "philosophy": "A near-black product-focused marketing canvas built around #010102 (the deepest dark surface of any tool in this collection), light gray text (#f7f8f8), and the signature Linear lavender-blue (#5e6ad2",
+    "colors": [
+      "#5e6ad2",
+      "#ffffff",
+      "#828fff",
+      "#5e69d1"
+    ],
+    "typography": "Linear Display, Linear Text / w600/500/400",
+    "keywords": [
+      "効率",
+      "流麗",
+      "プロダクト"
+    ],
+    "about": "プロジェクト管理",
+    "url": "https://linear.app",
+    "description": "ソフトウェア開発チーム向けの高速プロジェクト管理ツール。UIの滑らかさと速度にこだわり、Jiraの代替として開発者に支持されている。シンプルながら高機能なイシュートラッカーとして急速に普及した。"
+  },
+  {
+    "id": "mintlify",
+    "name": "Mintlify",
+    "category": "Dev Tools",
+    "philosophy": "Mintlify presents documentation infrastructure with a dual-mode aesthetic — atmospheric sky-gradient marketing heroes (cloud illustration backdrops, soft cream-to-blue washes) paired with dense develo",
+    "colors": [
+      "#0a0a0a",
+      "#ffffff",
+      "#00d4a4",
+      "#00b48a"
+    ],
+    "typography": "Inter, Geist Mono / w600/400/500",
+    "keywords": [
+      "ドキュメント",
+      "開発者",
+      "クリーン"
+    ],
+    "about": "ドキュメント生成",
+    "url": "https://mintlify.com",
+    "description": "AIを活用したドキュメント自動生成・管理プラットフォーム。コードから自動でドキュメントを作成し、美しいドキュメントサイトを素早く構築できる。スタートアップのAPIドキュメントとして広く採用されている。"
+  },
+  {
+    "id": "miro",
+    "name": "Miro",
+    "category": "Dev Tools",
+    "philosophy": "Miro presents itself as the AI-powered visual workspace through a confident, almost playful brand voice — anchored by its signature canary yellow ({colors.",
+    "colors": [
+      "#1c1c1e",
+      "#ffffff",
+      "#ffd02f",
+      "#fcb900"
+    ],
+    "typography": "Roobert PRO / w500/400/600",
+    "keywords": [
+      "コラボ",
+      "ホワイトボード",
+      "無限"
+    ],
+    "about": "ホワイトボード",
+    "url": "https://miro.com",
+    "description": "オンラインホワイトボードツールで、リモートチームのブレインストーミングやアジャイル開発に活用される。スティッキーノート・フローチャート・マインドマップなど豊富なテンプレートを提供する。世界6,000万人以上のユーザーを持つ。"
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "category": "Dev Tools",
+    "philosophy": "MongoDB carries a strong dual-mode visual identity — dark deep-teal hero bands with bright MongoDB green ({colors.",
+    "colors": [
+      "#00ed64",
+      "#00b545",
+      "#008c34",
+      "#001e2b"
+    ],
+    "typography": "Euclid Circular A, Source Code Pro / w500/600/400",
+    "keywords": [
+      "柔軟",
+      "スケール",
+      "NoSQL"
+    ],
+    "about": "ドキュメントDB",
+    "url": "https://www.mongodb.com",
+    "description": "JSON形式でデータを扱えるNoSQLドキュメントデータベース。柔軟なスキーマ設計とスケールアウトのしやすさからWebアプリ開発で広く採用されている。Atlasクラウドサービスにより運用管理の負荷を大幅に削減した。"
+  },
+  {
+    "id": "notion",
+    "name": "Notion",
+    "category": "Dev Tools",
+    "philosophy": "Notion presents itself as the all-in-one workspace through a confident, illustration-rich brand voice — anchored by a deep navy hero band ({colors.",
+    "colors": [
+      "#5645d4",
+      "#4534b3",
+      "#3a2a99",
+      "#ffffff"
+    ],
+    "typography": "Notion Sans / w600/400/500",
+    "keywords": [
+      "整理",
+      "汎用",
+      "ミニマル"
+    ],
+    "about": "メモ・DB統合",
+    "url": "https://www.notion.so",
+    "description": "メモ・タスク管理・データベース・Wikiを一つにまとめた汎用ワークスペースツール。ブロックベースのエディタで自由度が高く、個人からチームまで幅広い用途に対応する。Notion AIで執筆支援も強化されている。"
+  },
+  {
+    "id": "posthog",
+    "name": "PostHog",
+    "category": "Dev Tools",
+    "philosophy": "A playful developer-tools system rendered on a warm cream canvas with hand-drawn hedgehog mascots dotted across every page like marginalia in a sketchbook.",
+    "colors": [
+      "#f7a501",
+      "#dd9001",
+      "#b17816",
+      "#23251d"
+    ],
+    "typography": "IBM Plex Sans Variable, ui-monospace / w700/800/600",
+    "keywords": [
+      "分析",
+      "オープンソース",
+      "プロダクト"
+    ],
+    "about": "プロダクト分析",
+    "url": "https://posthog.com",
+    "description": "プロダクト分析・ヒートマップ・セッション録画・A/Bテストをオールインワンで提供するオープンソースプラットフォーム。自己ホスト可能でデータプライバシーを確保しながら使用できる。エンジニア主導の製品改善を強力に支援する。"
+  },
+  {
+    "id": "raycast",
+    "name": "Raycast",
+    "category": "Dev Tools",
+    "philosophy": "Raycast's marketing system reads like an extended product screenshot.",
+    "colors": [
+      "#ffffff",
+      "#e8e8e8",
+      "#000000",
+      "#f4f4f6"
+    ],
+    "typography": "Inter / w600/500/400",
+    "keywords": [
+      "生産性",
+      "Mac",
+      "ランチャー"
+    ],
+    "about": "Macランチャー",
+    "url": "https://www.raycast.com",
+    "description": "Macのランチャーアプリで、アプリ起動・ファイル検索・スニペット管理などを超高速で実行できる。Spotlightの強力な代替として開発者を中心に熱狂的なファンを持つ。豊富な拡張機能で自由なカスタマイズが可能。"
+  },
+  {
+    "id": "resend",
+    "name": "Resend",
+    "category": "Dev Tools",
+    "philosophy": "Resend's marketing surfaces sit on a near-pure black canvas with off-white text and a single signature color — the deep editorial-serif Domaine Display headline mark — that gives an otherwise utilitar",
+    "colors": [
+      "#fcfdff",
+      "#000000",
+      "#a1a4a5",
+      "#888e90"
+    ],
+    "typography": "Domaine Display, ABC Favorit / w400/500/600",
+    "keywords": [
+      "メール",
+      "開発者",
+      "モダン"
+    ],
+    "about": "メール配信API",
+    "url": "https://resend.com",
+    "description": "開発者向けのモダンなメール配信APIサービス。React Emailによるテンプレート作成でトランザクションメールの実装を大幅に簡易化する。DNS設定から配信分析まで一括で管理できるシンプルな設計が人気。"
+  },
+  {
+    "id": "sanity",
+    "name": "Sanity",
+    "category": "Dev Tools",
+    "philosophy": "Sanity's website is a developer-content platform rendered as a nocturnal command center -- dark, precise, and deeply structured.",
+    "colors": [
+      "#0b0b0b",
+      "#212121",
+      "#353535",
+      "#797979"
+    ],
+    "typography": "System default",
+    "keywords": [
+      "CMS",
+      "柔軟",
+      "構造化"
+    ],
+    "about": "ヘッドレスCMS",
+    "url": "https://www.sanity.io",
+    "description": "柔軟なスキーマ設計が特徴のヘッドレスCMS。GROQクエリ言語でコンテンツを自由に取得でき、あらゆるフロントエンドに対応する。カスタマイズ可能なSanity Studioという管理UIも提供している。"
+  },
+  {
+    "id": "sentry",
+    "name": "Sentry",
+    "category": "Dev Tools",
+    "philosophy": "An inspired interpretation of Sentri's design language — a developer-tools brand built on a deep purple-violet midnight canvas, electric lime accents, and a slightly subversive illustrated personality",
+    "colors": [
+      "#150f23",
+      "#1f1633",
+      "#ffffff",
+      "#c2ef4e"
+    ],
+    "typography": "Sentri Display, Rubik / w700/500/600",
+    "keywords": [
+      "エラー監視",
+      "開発者",
+      "可視性"
+    ],
+    "about": "エラー監視ツール",
+    "url": "https://sentry.io",
+    "description": "アプリケーションのエラー監視・パフォーマンスモニタリングプラットフォーム。リアルタイムでバグを検知し、スタックトレースや再現ステップを自動収集する。世界10万社以上の開発チームが利用する定番ツール。"
+  },
+  {
+    "id": "slack",
+    "name": "Slack",
+    "category": "Dev Tools",
+    "philosophy": "An inspired interpretation of Slacc's design language — a workplace messaging brand built on a deep aubergine primary, with cream-lavender hero gradients, blue inline links, and pill CTAs.",
+    "colors": [
+      "#4a154b",
+      "#481a54",
+      "#611f69",
+      "#592466"
+    ],
+    "typography": "Salesforce-Avant-Garde, Salesforce-Sans / w700/600/400",
+    "keywords": [
+      "チームコミュ",
+      "ハブ",
+      "接続"
+    ],
+    "about": "ビジネスチャット",
+    "url": "https://slack.com",
+    "description": "ビジネス向けチームコミュニケーションツールで、チャンネルベースのメッセージングでメール文化を刷新した。Salesforceが277億ドルで買収し、ビジネスSaaS界の象徴的プロダクトとなった。ハドルやワークフロービルダーなど機能を拡充中。"
+  },
+  {
+    "id": "supabase",
+    "name": "Supabase",
+    "category": "Dev Tools",
+    "philosophy": "An inspired interpretation of Supabaze's design language — an open-source database platform built on a clean white-and-near-black system with a single signature emerald-green CTA, a custom humanist sa",
+    "colors": [
+      "#3ecf8e",
+      "#24b47e",
+      "#4ade80",
+      "#171717"
+    ],
+    "typography": "Circular, ui-monospace / w500/400",
+    "keywords": [
+      "オープンソース",
+      "バックエンド",
+      "Postgres"
+    ],
+    "about": "開発者向けBaaS",
+    "url": "https://supabase.com",
+    "description": "Firebaseの代替を目指すオープンソースのBaaS（Backend as a Service）。PostgreSQLを基盤にAuth・Storage・Realtime・Edge Functionsを提供する。自己ホストも可能な透明性の高さがエンジニアから広く支持されている。"
+  },
+  {
+    "id": "superhuman",
+    "name": "Superhuman",
+    "category": "Dev Tools",
+    "philosophy": "An inspired interpretation of Superhumon's design language — a fast-email productivity brand split between an editorial dark hero (deep indigo navy with violet-sky atmospheric backdrop and a portrait ",
+    "colors": [
+      "#1b1938",
+      "#0e0c1f",
+      "#ffffff",
+      "#292827"
+    ],
+    "typography": "'Super Sans VF' / w540/460/700",
+    "keywords": [
+      "メール",
+      "速度",
+      "生産性"
+    ],
+    "about": "高速メールアプリ",
+    "url": "https://superhuman.com",
+    "description": "招待制の高速メールクライアント。キーボードショートカットとAIが融合し、メール処理時間を大幅に短縮する設計が特徴。月額30ドルという高単価ながら生産性を重視するプロフェッショナルに熱烈に支持されている。"
+  },
+  {
+    "id": "vercel",
+    "name": "Vercel",
+    "category": "Dev Tools",
+    "philosophy": "An inspired interpretation of Vercel's design language — a developer-platform brand whose surface is a stark black-and-ink duet on near-white canvas, broken at hero scale by a multi-color mesh gradien",
+    "colors": [
+      "#171717",
+      "#ffffff",
+      "#4d4d4d",
+      "#888888"
+    ],
+    "typography": "Geist, Geist Mono / w600/400/500",
+    "keywords": [
+      "デプロイ",
+      "フロントエンド",
+      "高速"
+    ],
+    "about": "フロントエンド基盤",
+    "url": "https://vercel.com",
+    "description": "Next.jsの開発元でもあるフロントエンドクラウドプラットフォーム。GitHubと連携した自動デプロイ・エッジネットワーク・プレビューURLで開発体験を革新した。フロントエンドのデプロイ先として事実上の業界標準となっている。"
+  },
+  {
+    "id": "warp",
+    "name": "Warp",
+    "category": "Dev Tools",
+    "philosophy": "An inspired interpretation of Warp's design language — an agentic terminal-and-development-environment brand whose surface is a warm near-charcoal canvas (a tint warmer than pure black), broken only b",
+    "colors": [
+      "#f7f5f0",
+      "#2b2622",
+      "#c9c0ad",
+      "#dad2c1"
+    ],
+    "typography": "Inter, Instrument Serif / w400/500",
+    "keywords": [
+      "ターミナル",
+      "AI",
+      "開発者"
+    ],
+    "about": "AIターミナル",
+    "url": "https://www.warp.dev",
+    "description": "AIを統合したモダンなターミナルアプリ。コマンドの自動補完・自然言語でのコマンド生成・チームでのコマンド共有が可能。RustとGPUレンダリングによる高速動作で開発者体験を刷新している。"
+  },
+  {
+    "id": "webflow",
+    "name": "Webflow",
+    "category": "Dev Tools",
+    "philosophy": "An inspired interpretation of Webflow's design language — a visual web development platform whose surface contrasts a deep near-black `#080808` primary against a generous white canvas, broken by a fiv",
+    "colors": [
+      "#080808",
+      "#ffffff",
+      "#222222",
+      "#363636"
+    ],
+    "typography": "WF Visual Sans Variable, WFVisualSans-Mono / w600/500/400",
+    "keywords": [
+      "ノーコード",
+      "ビジュアル",
+      "CMS"
+    ],
+    "about": "ノーコードWeb",
+    "url": "https://webflow.com",
+    "description": "コードなしでプロ品質のWebサイトを構築できるノーコードCMS兼Webデザインツール。視覚的なエディタでHTML/CSS/JSを生成し、そのままホスティングまで完結する。デザイナー主導のサイト構築を実現する定番ツール。"
+  },
+  {
+    "id": "zapier",
+    "name": "Zapier",
+    "category": "Dev Tools",
+    "philosophy": "An inspired interpretation of Zapier's design language — a workflow-automation platform whose surface combines warm-cream neutrals (`#fffefb` canvas, `#f8f4f0` soft cream) with deep coffee ink (`#2015",
+    "colors": [
+      "#ff4f00",
+      "#fffefb",
+      "#201515",
+      "#2f2a26"
+    ],
+    "typography": "Degular Display, Inter / w500/400/600",
+    "keywords": [
+      "自動化",
+      "ノーコード",
+      "接続"
+    ],
+    "about": "自動化連携ツール",
+    "url": "https://zapier.com",
+    "description": "異なるWebアプリ同士を自動連携させるノーコード自動化ツール。7,000以上のアプリを繋ぎ手作業のワークフローを自動化できる。プログラミング不要で業務効率化を実現する定番の自動化プラットフォーム。"
+  },
+  {
+    "id": "shopify",
+    "name": "Shopify",
+    "category": "EC",
+    "philosophy": "An inspired interpretation of Shopifi's design language — a cinematic commerce platform that runs two parallel design tracks.",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#0a0a0a",
+      "#fbfbf5"
+    ],
+    "typography": "NeueHaasGrotesk Display, Inter Variable / w330/500/400",
+    "keywords": [
+      "EC",
+      "マーチャント",
+      "成長"
+    ],
+    "about": "ECプラットフォーム",
+    "url": "https://www.shopify.com",
+    "description": "ECサイト構築・運営のためのオールインワンプラットフォーム。世界175カ国以上で175万を超える事業者が利用する。決済・在庫管理・マーケティングツールを一元管理できるEC界のインフラ企業。"
+  },
+  {
+    "id": "playstation",
+    "name": "PlayStation",
+    "category": "ゲーム",
+    "philosophy": "A three-surface marketing system organized around alternating black, white, and PlayStation Blue chapters that scroll past the viewer like a console launch trailer.",
+    "colors": [
+      "#0070d1",
+      "#0064b7",
+      "#004d8d",
+      "#ffffff"
+    ],
+    "typography": "PlayStation SST / w300/600/400",
+    "keywords": [
+      "ゲーム",
+      "没入",
+      "エンタメ"
+    ],
+    "about": "ゲームコンソール",
+    "url": "https://www.playstation.com",
+    "description": "ソニーが展開するゲームコンソールブランド。PlayStation 5は高速SSDと独自DualSenseコントローラーでゲーム体験を刷新した。PlayStation StudiosによるファーストパーティタイトルとPS Plusで豊かなゲームエコシステムを構築している。"
+  },
+  {
+    "id": "spacex",
+    "name": "SpaceX",
+    "category": "スペース",
+    "philosophy": "An inspired interpretation of Spasex's design language — a mission-oriented aerospace brand built on pure black canvas, full-bleed photographic and video heroes of rockets and Mars landscapes, and upp",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#f0f0fa",
+      "#0a0a0a"
+    ],
+    "typography": "D-DIN-Bold, D-DIN / w700/400",
+    "keywords": [
+      "宇宙",
+      "未来",
+      "エンジニアリング"
+    ],
+    "about": "宇宙開発企業",
+    "url": "https://www.spacex.com",
+    "description": "イーロン・マスクが2002年に設立した宇宙開発企業。Falcon 9ロケットの再利用に成功し打ち上げコストを劇的に削減した。Starlink衛星インターネットと有人宇宙飛行でNASAとも連携している。"
+  },
+  {
+    "id": "vodafone",
+    "name": "Vodafone",
+    "category": "テレコム",
+    "philosophy": "An inspired interpretation of Vodafone's design language — a telecom super-brand whose web surface alternates between editorial photography hero bands with massive uppercase display headlines and clea",
+    "colors": [
+      "#e60000",
+      "#ffffff",
+      "#25282b",
+      "#7e7e7e"
+    ],
+    "typography": "Vodafone / w800/300/700",
+    "keywords": [
+      "テレコム",
+      "グローバル",
+      "接続"
+    ],
+    "about": "英国通信企業",
+    "url": "https://www.vodafone.com",
+    "description": "英国に本社を置く世界最大級の通信企業グループ。欧州・アフリカ・アジアなど20カ国以上でモバイル・固定回線・IoTサービスを展開する。アフリカの携帯決済サービス「M-Pesa」でも広く知られている。"
+  },
+  {
+    "id": "nike",
+    "name": "Nike",
+    "category": "ファッション",
+    "philosophy": "A photography-first commerce system built on extreme typographic contrast — towering uppercase Futura display lockups burned into editorial campaign imagery, sitting above a dense, neutral, near-monoc",
+    "colors": [
+      "#111111",
+      "#ffffff",
+      "#f5f5f5",
+      "#39393b"
+    ],
+    "typography": "Nike Futura ND, Helvetica Now Display Medium / w500/400",
+    "keywords": [
+      "運動",
+      "タイポ",
+      "インパクト"
+    ],
+    "about": "スポーツ用品",
+    "url": "https://www.nike.com",
+    "description": "1964年創業の世界最大のスポーツ用品メーカー。「Just Do It」のスローガンと「スウッシュ」ロゴは世界中で認知されている。エアジョーダンなど革新的なスニーカーラインとトップアスリート契約で文化的影響力を持つ。"
+  },
+  {
+    "id": "binance",
+    "name": "Binance",
+    "category": "フィンテック",
+    "philosophy": "A confident financial-platform interface anchored on a deep near-black canvas, where Binance's iconic yellow (#FCD535) carries every primary CTA, brand accent, and value-claim moment.",
+    "colors": [
+      "#fcd535",
+      "#f0b90b",
+      "#3a3a1f",
+      "#181a20"
+    ],
+    "typography": "BinanceNova, BinancePlex / w700/600/500",
+    "keywords": [
+      "暗号通貨",
+      "スピード",
+      "グローバル"
+    ],
+    "about": "暗号通貨取引所",
+    "url": "https://www.binance.com",
+    "description": "世界最大級の暗号通貨取引所。BNBチェーンという独自ブロックチェーンも運営し、DeFi・NFT市場にも進出している。創業者のCZ（趙長鵬）はかつて仮想通貨業界で最も影響力ある人物とされた。"
+  },
+  {
+    "id": "coinbase",
+    "name": "Coinbase",
+    "category": "フィンテック",
+    "philosophy": "An institutional-grade crypto exchange whose marketing surfaces read like a quietly-confident financial-services brand.",
+    "colors": [
+      "#0052ff",
+      "#003ecc",
+      "#a8b8cc",
+      "#0a0b0d"
+    ],
+    "typography": "'Coinbase Display', 'Coinbase Sans' / w400/600/700",
+    "keywords": [
+      "信頼",
+      "暗号通貨",
+      "主流"
+    ],
+    "about": "暗号通貨取引所",
+    "url": "https://www.coinbase.com",
+    "description": "米国最大手の暗号通貨取引所でNASDAQ上場企業。規制を重視したコンプライアンスの姿勢で機関投資家からの信頼を獲得している。Baseという独自のEthereumレイヤー2チェーンも運営する。"
+  },
+  {
+    "id": "kraken",
+    "name": "Kraken",
+    "category": "フィンテック",
+    "philosophy": "Kraken's website is a clean, trustworthy crypto exchange that uses purple as its commanding brand color.",
+    "colors": [
+      "#7132f5",
+      "#5741d8",
+      "#5b1ecf",
+      "#101114"
+    ],
+    "typography": "System default",
+    "keywords": [
+      "セキュリティ",
+      "トレード",
+      "暗号通貨"
+    ],
+    "about": "暗号通貨取引所",
+    "url": "https://www.kraken.com",
+    "description": "2011年創業の老舗暗号通貨取引所。機関投資家向けの高セキュリティと豊富な取引ペアが特徴。欧米の規制に準拠したコンプライアンス重視の運営で業界内の信頼が厚い。"
+  },
+  {
+    "id": "mastercard",
+    "name": "Mastercard",
+    "category": "フィンテック",
+    "philosophy": "Mastercard's experience reads like a warm, editorial magazine built from soft stone and signal orange.",
+    "colors": [
+      "#f3f0ee",
+      "#141413",
+      "#eb001b",
+      "#f79e1b"
+    ],
+    "typography": "Geist",
+    "keywords": [
+      "信頼",
+      "グローバル",
+      "決済"
+    ],
+    "about": "国際決済ブランド",
+    "url": "https://www.mastercard.com",
+    "description": "世界200カ国以上で決済ネットワークを展開するグローバル決済ブランド。Visaと並ぶ二大クレジットカードネットワークの一つ。生体認証技術やデジタル決済サービスで未来の決済体験を牽引している。"
+  },
+  {
+    "id": "revolut",
+    "name": "Revolut",
+    "category": "フィンテック",
+    "philosophy": "Revolut's marketing surfaces pair a stark black canvas with the brand's cobalt-violet (`#494fdf`) and a wide accent palette of deep, fully-saturated product colours — teal, light-blue, deep pink, ligh",
+    "colors": [
+      "#494fdf",
+      "#4f55f1",
+      "#3a40c4",
+      "#ffffff"
+    ],
+    "typography": "Aeonik Pro, Inter / w500/400/600",
+    "keywords": [
+      "フィンテック",
+      "モダン",
+      "グローバル"
+    ],
+    "about": "デジタル銀行",
+    "url": "https://www.revolut.com",
+    "description": "2015年ロンドン設立のデジタルバンク（ネオバンク）。外貨両替・株式投資・仮想通貨取引をひとつのアプリで提供する。欧州を中心に4,000万人以上のユーザーを持ち、銀行業免許も取得している。"
+  },
+  {
+    "id": "stripe",
+    "name": "Stripe",
+    "category": "フィンテック",
+    "philosophy": "An inspired interpretation of Stripi's design language — a financial-infrastructure brand built on a deep navy ink, an electric indigo primary, and a recurring atmospheric gradient mesh that occupies ",
+    "colors": [
+      "#533afd",
+      "#4434d4",
+      "#2e2b8c",
+      "#665efd"
+    ],
+    "typography": "sohne-var / w300/400",
+    "keywords": [
+      "決済",
+      "開発者",
+      "エレガント"
+    ],
+    "about": "決済インフラ",
+    "url": "https://stripe.com",
+    "description": "2010年創業の決済インフラ企業で、APIファーストの設計が開発者に絶大な人気を誇る。世界100カ国以上で決済を処理しAmazonやGoogleなど大手も採用している。非上場ながら数十兆円規模の時価総額と評される急成長企業。"
+  },
+  {
+    "id": "wise",
+    "name": "Wise",
+    "category": "フィンテック",
+    "philosophy": "An inspired interpretation of Wise's design language — a global money-transfer brand whose surface combines an unusually heavy near-black display sans (weight 900 at 64–126 px) with a vivid lime-green",
+    "colors": [
+      "#9fe870",
+      "#0e0f0c",
+      "#cdffad",
+      "#c5edab"
+    ],
+    "typography": "Wise Sans, Inter / w900/400/600",
+    "keywords": [
+      "送金",
+      "北欧",
+      "誠実"
+    ],
+    "about": "海外送金サービス",
+    "url": "https://wise.com",
+    "description": "2011年ロンドン創業の国際送金・外貨両替サービス。銀行と比較して大幅に安い手数料と実際の為替レートで透明性を訴求している。ロンドン証券取引所に上場し1,600万人以上のユーザーを抱える。"
+  },
+  {
+    "id": "pinterest",
+    "name": "Pinterest",
+    "category": "メディア",
+    "philosophy": "A photography-first discovery system organized around the Pinterest Red CTA, the masonry pin grid, and a soft warm-cream chrome that gets out of the imagery's way.",
+    "colors": [
+      "#e60023",
+      "#ffffff",
+      "#cc001f",
+      "#000000"
+    ],
+    "typography": "Pin Sans / w600/700/400",
+    "keywords": [
+      "ビジュアル",
+      "発見",
+      "インスピレーション"
+    ],
+    "about": "画像保存SNS",
+    "url": "https://www.pinterest.com",
+    "description": "画像・動画のブックマーク・共有に特化したビジュアルSNSプラットフォーム。料理・ファッション・インテリアなどライフスタイル系コンテンツが特に人気。購買意向の高いユーザー層からマーケターの評価が高い。"
+  },
+  {
+    "id": "theverge",
+    "name": "The Verge",
+    "category": "メディア",
+    "philosophy": "The Verge's 2024 redesign feels like somebody wired a Condé Nast magazine to a chiptune soundboard.",
+    "colors": [
+      "#131313",
+      "#3cffd0",
+      "#5200ff",
+      "#ffffff"
+    ],
+    "typography": "System default",
+    "keywords": [
+      "テックメディア",
+      "タイポ",
+      "ジャーナリズム"
+    ],
+    "about": "テクノロジー情報誌",
+    "url": "https://www.theverge.com",
+    "description": "2011年創刊のテクノロジー・サイエンス・カルチャーを扱うデジタルメディア。Vox Mediaが運営し批評性の高いレビューとニュース分析で知られる。ポッドキャストやYouTubeでも積極的にコンテンツを展開している。"
+  },
+  {
+    "id": "wired",
+    "name": "Wired",
+    "category": "メディア",
+    "philosophy": "An inspired interpretation of Wired's design language — a flagship technology-magazine brand whose surface is a strict editorial duet of stark black wordmark on white canvas, anchored by a tall narrow",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#1a1a1a",
+      "#757575"
+    ],
+    "typography": "WiredDisplay, Apercu / w400/700",
+    "keywords": [
+      "テックメディア",
+      "未来",
+      "文化"
+    ],
+    "about": "テクノロジー雑誌",
+    "url": "https://www.wired.com",
+    "description": "1993年創刊のテクノロジー・ビジネス・カルチャー雑誌。シリコンバレーの急成長期から現代まで技術と社会の変化を深く掘り下げてきた。コンデナスト傘下でデジタル版も展開する影響力あるメディア。"
+  },
+  {
+    "id": "airbnb",
+    "name": "Airbnb",
+    "category": "ライフスタイル",
+    "philosophy": "A warm, generous consumer marketplace anchored on a clean white canvas and Airbnb Rausch (#ff385c), the single brand voltage that carries every primary CTA, search-button orb, and rating dot.",
+    "colors": [
+      "#ff385c",
+      "#e00b41",
+      "#ffd1da",
+      "#c13515"
+    ],
+    "typography": "'Airbnb Cereal VF' / w700/500/600",
+    "keywords": [
+      "温かみ",
+      "コミュニティ",
+      "帰属感"
+    ],
+    "about": "民泊サービス",
+    "url": "https://www.airbnb.com",
+    "description": "2008年創業の民泊・宿泊シェアリングプラットフォーム。世界220以上の国と地域で700万件超の宿泊施設を掲載している。ホームシェアリングという新しい旅行文化を生み出し、観光業を根底から変革した。"
+  },
+  {
+    "id": "starbucks",
+    "name": "Starbucks",
+    "category": "ライフスタイル",
+    "philosophy": "Starbucks' design system is a warm, confident retail flagship wearing the green of their storefront apron across every surface.",
+    "colors": [
+      "#f2f0eb",
+      "#edebe9",
+      "#006241",
+      "#cba258"
+    ],
+    "typography": "System default",
+    "keywords": [
+      "コミュニティ",
+      "温かさ",
+      "体験"
+    ],
+    "about": "コーヒーチェーン",
+    "url": "https://www.starbucks.com",
+    "description": "1971年シアトル創業のコーヒーチェーン。世界80カ国以上に35,000店舗以上を展開する。グリーンエプロンと人魚のロゴで世界中に認知され、「サードプレイス」という概念を広めた先駆者。"
+  },
+  {
+    "id": "uber",
+    "name": "Uber",
+    "category": "ライフスタイル",
+    "philosophy": "An inspired interpretation of Uber's design language — a transportation-and-delivery super-app brand whose web surface is a black-and-white duet, framed by a custom geometric display sans, accented by",
+    "colors": [
+      "#000000",
+      "#ffffff",
+      "#5e5e5e",
+      "#afafaf"
+    ],
+    "typography": "UberMove, UberMoveText / w700/500/400",
+    "keywords": [
+      "移動",
+      "グローバル",
+      "スピード"
+    ],
+    "about": "ライドシェア",
+    "url": "https://www.uber.com",
+    "description": "2009年創業のライドシェアリングと食事配達の世界的プラットフォーム企業。Uber Eatsを含む配達事業でも急成長し、70カ国以上でサービスを展開する。タクシー業界を変革した先駆的シェアリングエコノミー企業。"
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "category": "音楽",
+    "philosophy": "Spotify's web interface is a dark, immersive music player that wraps listeners in a near-black cocoon (#121212, #181818, #1f1f1f) where album art and content become the primary source of color.",
+    "colors": [
+      "#121212",
+      "#181818",
+      "#1f1f1f",
+      "#1ed760"
+    ],
+    "typography": "SpotifyMixUI, SpotifyMixUITitle",
+    "keywords": [
+      "音楽",
+      "没入",
+      "劇場"
+    ],
+    "about": "音楽ストリーミング",
+    "url": "https://www.spotify.com",
+    "description": "2006年スウェーデン創業の音楽ストリーミングサービス。世界180カ国以上で6億人超のユーザーを持ち、1億曲以上の楽曲を提供する。ポッドキャスト分野にも積極投資し音声メディアの覇者を目指している。"
+  },
+  {
+    "id": "bmw",
+    "name": "BMW",
+    "category": "自動車",
+    "philosophy": "BMW's corporate site — distinct from BMW M's motorsport-bombastic variant, this is a measured and settled corporate-automotive interface.",
+    "colors": [
+      "#1c69d4",
+      "#0653b6",
+      "#d6d6d6",
+      "#262626"
+    ],
+    "typography": "'BMW Type Next Latin' / w700/300/400",
+    "keywords": [
+      "精密",
+      "優雅",
+      "エンジニアリング"
+    ],
+    "about": "ドイツ高級車",
+    "url": "https://www.bmw.com",
+    "description": "1916年創業のドイツ高級自動車メーカー。「駆けぬける歓び」のスローガンのもと、ドライビングプレジャーを追求した車作りで世界的に高い評価を得る。電動化シフトを加速しiシリーズのEVラインアップを拡充している。"
+  },
+  {
+    "id": "bmw-m",
+    "name": "BMW M",
+    "category": "自動車",
+    "philosophy": "A motorsport-engineering interface anchored on a near-black canvas with white BMW Type Next Latin display headlines in confident UPPERCASE.",
+    "colors": [
+      "#ffffff",
+      "#bbbbbb",
+      "#e6e6e6",
+      "#7e7e7e"
+    ],
+    "typography": "BMWTypeNextLatin, BMWTypeNextLatin Light / w700/400/300",
+    "keywords": [
+      "パフォーマンス",
+      "ダイナミック",
+      "高精度"
+    ],
+    "about": "高性能スポーツ車",
+    "url": "https://www.bmw-m.com",
+    "description": "BMWのモータースポーツ部門が手がける高性能車ブランド。M3・M5など独自のサスペンション・エンジン・空力を持つ特別仕様車を展開する。ニュルブルクリンクでの開発テストを通じて極限の走行性能を磨いている。"
+  },
+  {
+    "id": "bugatti",
+    "name": "Bugatti",
+    "category": "自動車",
+    "philosophy": "An austere luxury-automotive interface that uses near-pure black canvas, white uppercase letterspaced display, and full-bleed automotive photography as the only voltage.",
+    "colors": [
+      "#ffffff",
+      "#cccccc",
+      "#e6e6e6",
+      "#999999"
+    ],
+    "typography": "Bugatti Display, Bugatti Monospace / w400",
+    "keywords": [
+      "超高級",
+      "アート",
+      "限界"
+    ],
+    "about": "超高級スポーツカー",
+    "url": "https://www.bugatti.com",
+    "description": "フランスを拠点とする超高級スポーツカーブランド。Veyron・Chironなど1,000馬力超の限定モデルで知られる。一台数億円を超える価格と精緻な職人仕事から「オートモーティブアート」と称される。"
+  },
+  {
+    "id": "ferrari",
+    "name": "Ferrari",
+    "category": "自動車",
+    "philosophy": "A luxury-automotive brand whose marketing surfaces read as cinematic editorial.",
+    "colors": [
+      "#da291c",
+      "#b01e0a",
+      "#9d2211",
+      "#ffffff"
+    ],
+    "typography": "'FerrariSans' / w500/700/400",
+    "keywords": [
+      "情熱",
+      "速度",
+      "イタリアン"
+    ],
+    "about": "イタリア高級車",
+    "url": "https://www.ferrari.com",
+    "description": "1947年イタリア・マラネロ創業の最高級スポーツカーメーカー。F1レースで培った技術を市販車に投入し、赤いボディと跳ね馬ロゴは情熱の象徴となっている。厳格な生産台数制限で希少性を保ち、ブランド価値を最大化する。"
+  },
+  {
+    "id": "lamborghini",
+    "name": "Lamborghini",
+    "category": "自動車",
+    "philosophy": "Lamborghini's website is a cathedral of darkness — a digital stage where jet-black surfaces stretch infinitely and every element emerges from the void like a machine under a spotlight.",
+    "colors": [
+      "#000000",
+      "#ffc000",
+      "#ffffff",
+      "#917300"
+    ],
+    "typography": "System default",
+    "keywords": [
+      "劇的",
+      "スポーツ",
+      "イタリアン"
+    ],
+    "about": "イタリア超高級車",
+    "url": "https://www.lamborghini.com",
+    "description": "イタリア・サンタアガタ発の超高級スポーツカーブランド。Huracán・Urusなど攻撃的なデザインと圧倒的な加速性能で世界的に知られる。1998年からアウディ（VWグループ）傘下に入り品質とグローバル展開を強化している。"
+  },
+  {
+    "id": "renault",
+    "name": "Renault",
+    "category": "自動車",
+    "philosophy": "Renault's web presence pairs the freshly-modernised Renault diamond (the 2021 flat-line rhombus mark) with a stark black-and-white canvas, a signature Sunlight Yellow accent, and the proprietary Nouve",
+    "colors": [
+      "#ffed00",
+      "#e6d200",
+      "#000000",
+      "#222222"
+    ],
+    "typography": "NouvelR / w700/600/400",
+    "keywords": [
+      "フレンチ",
+      "電動",
+      "デザイン"
+    ],
+    "about": "フランス大衆車",
+    "url": "https://www.renault.com",
+    "description": "1899年創業のフランス最大の自動車メーカー。日産・三菱とルノー・日産・三菱アライアンスを形成し世界有数の規模を誇る。Zoé・Mégane E-Techなど電動化にいち早く取り組んだEVパイオニアとしても知られる。"
+  },
+  {
+    "id": "tesla",
+    "name": "Tesla",
+    "category": "自動車",
+    "philosophy": "Tesla's website is an exercise in radical subtraction — a digital showroom where the product is everything and the interface is almost nothing.",
+    "colors": [
+      "#3e6ae1",
+      "#ffffff",
+      "#f4f4f4",
+      "#171a20"
+    ],
+    "typography": "System default",
+    "keywords": [
+      "電動",
+      "未来",
+      "ミニマル"
+    ],
+    "about": "電気自動車企業",
+    "url": "https://www.tesla.com",
+    "description": "2003年設立の電気自動車と再生可能エネルギーの企業。Model S・3・X・YなどのEVと自動運転技術で自動車産業を変革している。イーロン・マスクがCEOとして世界最大のEV専業メーカーへ成長させた。"
+  }
+]
