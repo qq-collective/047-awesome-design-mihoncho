@@ -1,6 +1,6 @@
-# 🦋 046 Awesome Design Mihon-cho — デザイン見本帳
+# 🦋 047 Awesome Design Mihon-cho — デザイン見本帳
 
-**QQ#046**
+**QQ#047**
 
 > 世界 71 ブランドが語る「言葉にならない思想」
 
